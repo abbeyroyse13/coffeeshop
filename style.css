@@ -1,0 +1,25 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.shop {
+    flex-basis: 24%;
+    border: 1px dotted black;
+    padding: 1rem;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+    text-align: left;
+}
+
+header {
+    display: flex;
+    flex-direction: center;
+}
+
+.pageHeader {
+    justify-content: center;
+    font-weight: bold;
+}
